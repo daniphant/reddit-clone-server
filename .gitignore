@@ -98,3 +98,8 @@ dist
 
 # TernJS port file
 .tern-port
+
+# mikro-orm config file
+*.config.ts
+*.config.js
+*.config.js.map
