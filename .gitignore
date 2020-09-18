@@ -109,3 +109,8 @@ dist/
 # Temp folder
 
 temp/
+
+# Prettier & Eslint files
+.prettierrc 
+.eslintrc.json
+
