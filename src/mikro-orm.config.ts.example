@@ -11,7 +11,7 @@ export default {
 	entities: [Post, User],
 	dbName: "lireddit",
 	type: "postgresql",
-	user: "eventide",
-	password: "tibbers",
+	user: "", // FILL
+	password: "", // FILL
 	debug: process.env.NODE_ENV === "production",
 } as Parameters<typeof MikroORM.init>[0];

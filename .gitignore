@@ -99,7 +99,11 @@ dist
 # TernJS port file
 .tern-port
 
-# mikro-orm config file
+# Mikro-orm config file
 *.config.ts
 *.config.js
 *.config.js.map
+
+# Dist Folder
+
+dist/

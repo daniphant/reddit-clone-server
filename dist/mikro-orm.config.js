@@ -12,9 +12,9 @@ exports.default = {
         pattern: /^[\w-]+\d+\.[tj]s$/,
     },
     entities: [Post_1.Post, User_1.User],
-    dbName: "redditClone",
+    dbName: "lireddit",
     type: "postgresql",
-    user: "postgres",
+    user: "eventide",
     password: "tibbers",
     debug: process.env.NODE_ENV === "production",
 };
