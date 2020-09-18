@@ -100,10 +100,12 @@ dist
 .tern-port
 
 # Mikro-orm config file
-*.config.ts
-*.config.js
-*.config.js.map
+src/mikro-orm.config.ts
 
 # Dist Folder
 
 dist/
+
+# Temp folder
+
+temp/
